@@ -1,0 +1,34 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle dummy",
+        "command": "dummy:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Build",
+      "submenu": [
+        {
+          "label": "Build",
+          "command": "armide:build"
+        },
+        {
+          "label": "Clean",
+          "command": "armide:clean"
+        },
+        {
+          "label": "dummy",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "dummy:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

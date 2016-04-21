@@ -1,0 +1,23 @@
+name: armide
+version: 0.0.1
+description: An IDE for Embedded systems for 21st century based on Atom editor
+homepage: https://geekwentfreak.com
+
+environment:
+  sdk: '>=1.9.0 <2.0.0'
+
+dependencies:
+  atom:
+    git: https://github.com/dart-atom/atom.dart.git
+  logging: ^0.11.0
+  markdown: ^0.10.0
+  pub_semver: ^1.2.1
+  usage: ^1.1.0
+  vm_service_lib: ^0.3.0
+  yaml: ^2.0.0
+
+dev_dependencies:
+  grinder: ^0.8.0+1
+  html: ^0.12.0
+  test: ^0.12.0
+  which: ^0.1.0

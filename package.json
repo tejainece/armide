@@ -1,0 +1,31 @@
+{
+  "name": "armide",
+  "main": "./web/main.dart.js",
+  "version": "0.0.1",
+  "description": "An IDE for Embedded systems for 21st century based on Atom editor",
+  "keywords": [
+    "GCC", "ARM", "IDE", "Embedded", "Systems", "make", "cortex", "autocomplete",
+    "refractor"
+  ],
+  "activationCommands": {
+    "atom-workspace": "dummy:toggle"
+  },
+  "repository": "https://github.com/atom/dummy",
+  "license": "Ravi Teja Gudapati",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "required-packages": [
+    "synced-sidebar",
+    "build"
+  ],
+  "consumedServices": {
+    "autoreload": {
+      "versions": {
+        "^0.0.1": "consumeAutoreload"
+      }
+    }
+  }
+}
